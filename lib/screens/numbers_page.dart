@@ -1,6 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:flutter/material.dart';
+import 'package:toku_application/components/number_item.dart';
 import 'package:toku_application/models/number_model.dart';
 
 class Numbers extends StatelessWidget {
@@ -25,8 +26,33 @@ class Numbers extends StatelessWidget {
         title: const Text('Numbers'),
         titleSpacing: 0.0,
       ),
-      body: Column(
-        children: [],
+      body: ListView(
+        children: [
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+          NumberItem(
+            number: One,
+          ),
+        ],
       ),
     );
   }
