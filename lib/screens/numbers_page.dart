@@ -1,8 +1,15 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 
 class Numbers extends StatelessWidget {
   const Numbers({super.key});
 
+  final One = const Number(
+    Image: 'assets/images/numbers/number_one.png',
+    enName: 'one',
+    jpName: 'ichi',
+  );
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,23 +30,26 @@ class Numbers extends StatelessWidget {
         child: Row(
           children: [
             Container(
-                color: Color(0xfffff6dc),
-                child: Image.asset('assets/images/numbers/number_one.png')),
-            const Padding(
-              padding: EdgeInsets.only(left: 16),
+              color: const Color(0xfffff6dc),
+              child: Image.asset(
+                One.Image!,
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 16),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    'ichi',
-                    style: TextStyle(
+                    One.jpName!,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 18.0,
                     ),
                   ),
                   Text(
-                    'one',
-                    style: TextStyle(
+                    One.enName!,
+                    style: const TextStyle(
                       color: Colors.white,
                       fontSize: 18.0,
                     ),
@@ -61,4 +71,16 @@ class Numbers extends StatelessWidget {
       ),
     );
   }
+}
+
+class Number {
+  final String? Image;
+  final String? jpName;
+  final String? enName;
+
+  const Number({
+    this.Image,
+    this.enName,
+    this.jpName,
+  });
 }
