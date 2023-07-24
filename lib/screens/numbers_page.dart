@@ -74,40 +74,31 @@ class Numbers extends StatelessWidget {
         title: const Text('Numbers'),
         titleSpacing: 0.0,
       ),
-      body: ListView(
-        children: [
-          NumberItem(
-            number: NumbersList[0],
-          ),
-          NumberItem(
-            number: NumbersList[1],
-          ),
-          NumberItem(
-            number: NumbersList[2],
-          ),
-          NumberItem(
-            number: NumbersList[3],
-          ),
-          NumberItem(
-            number: NumbersList[4],
-          ),
-          NumberItem(
-            number: NumbersList[5],
-          ),
-          NumberItem(
-            number: NumbersList[6],
-          ),
-          NumberItem(
-            number: NumbersList[7],
-          ),
-          NumberItem(
-            number: NumbersList[8],
-          ),
-          NumberItem(
-            number: NumbersList[9],
-          ),
-        ],
+      body: ListView.builder(
+        itemBuilder: (context, index) => NumberItem(
+          number: NumbersList[index],
+        ),
+        itemCount: NumbersList.length,
       ),
     );
   }
 }
+
+List<Widget> getList(List<Number> numbers) {
+  List<Widget> itemList = [];
+  for (int i = 0; i < numbers.length; i++) {
+    itemList.add(
+      NumberItem(
+        number: numbers[i],
+      ),
+    );
+  }
+
+  return itemList;
+}
+
+// listview.builder is better than using for loop to display items in screen
+// because ordinary for loop display all items, whereas listview.builder
+// display only the items on the screen and when scrolling down it display The rest of the items not all as for loop
+
+// يعني ب اختصار ال ليست فيو افضل ف انها مش بتعرضهم كلهم مره واحده بتعرض بس اللي قدامك على الشاشه ولما تسكرول دوان بيبتدي يبني الويدجت الجديدة ويعرضها مش زي الفور لووب 
