@@ -18,4 +18,4 @@ Phrases Page
 ![Screenshot 2023-07-27 114313](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)
 
 
-<img align="left" width="100" height="100" src="[https://picsum.photos/100/100](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de">
+<img align="left" width="100" height="100" src="[https://picsum.photos/100/100](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)">
