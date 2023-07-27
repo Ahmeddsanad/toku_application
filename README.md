@@ -15,11 +15,7 @@ Family Members Page
 Colors Page
 ![Screenshot 2023-07-27 114253](https://github.com/Ahmeddsanad/toku_application/assets/100171203/d2af6a54-1ea9-4cf4-af74-92e54f8caf4e)
 Phrases Page
-
-
-
-<div style="width: 20%; height: 20%">
-  
 ![Screenshot 2023-07-27 114313](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)
-  
-</div>
+
+
+<img align="left" width="100" height="100" src="[https://picsum.photos/100/100](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de">
