@@ -4,13 +4,6 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This Application Helps you learn Japanese (numbers, family members, colors, and some phrases).
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<a size='200px'> ![Screenshot 2023-07-27 114141](https://github.com/Ahmeddsanad/toku_application/assets/100171203/56b3b3f9-efc2-4aa4-953f-a3a38734a3e8) </a>
