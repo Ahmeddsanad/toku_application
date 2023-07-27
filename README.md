@@ -15,4 +15,9 @@ Family Members Page
 Colors Page
 ![Screenshot 2023-07-27 114253](https://github.com/Ahmeddsanad/toku_application/assets/100171203/d2af6a54-1ea9-4cf4-af74-92e54f8caf4e)
 Phrases Page
-![Screenshot 2023-07-27 114313](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)
+
+
+
+<img src='![Screenshot 2023-07-27 114313](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)' width='25'>
+<img src='figure/anaconda.png' width='25'>
+<img src='figure/jupyterlab.png' width='25'>
