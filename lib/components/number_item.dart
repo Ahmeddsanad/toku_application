@@ -1,10 +1,18 @@
+// import 'package:just_audio_cache/just_audio_cache.dart';
+
+// import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 import '../models/number_model.dart';
 
 class NumberItem extends StatelessWidget {
-  const NumberItem({super.key, required this.number});
+  const NumberItem({
+    super.key,
+    required this.number,
+  });
+
   final Number number;
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -41,14 +49,26 @@ class NumberItem extends StatelessWidget {
             ),
           ),
           const Spacer(),
-          const Padding(
-            padding: const EdgeInsets.only(right: 16),
-            child: Icon(
+          IconButton(
+            onPressed: () {
+              try {
+                // AudioPlayer player = AudioPlayer();
+                // await player.play(AssetSource('assets/sounds/colors/black.wav'));
+
+                // AudioCache player = AudioCache(prefix: 'assets/sounds/numbers/');
+                // player.play('number.sound');
+
+                print('Song playing');
+              } catch (ex) {
+                print(ex);
+              }
+            },
+            icon: const Icon(
               Icons.play_arrow,
               color: Colors.white,
               size: 30.0,
             ),
-          )
+          ),
         ],
       ),
     );

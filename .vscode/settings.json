@@ -16,9 +16,10 @@
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
         "editor.parameterHints.enabled": false,
-        "editor.parameterHints.cycle": true,
+        "editor.parameterHints.cycle": false,
         "editor.inlayHints.enabled": "onUnlessPressed",
         // "editor.wordBasedSuggestions": false
     },
-    "editor.parameterHints.enabled": false
+    "editor.parameterHints.enabled": false,
+    "editor.parameterHints.cycle": false
 }
