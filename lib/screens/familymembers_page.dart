@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:toku_application/components/number_item.dart';
+import 'package:toku_application/components/ItemList.dart';
 import 'package:toku_application/models/Item_Model.dart';
 
 class FamilyMembersPage extends StatelessWidget {
@@ -71,7 +71,7 @@ class FamilyMembersPage extends StatelessWidget {
             child: const Icon(Icons.arrow_back_ios_new)),
         elevation: 0.0,
         backgroundColor: const Color(0xff473025),
-        title: const Text('Numbers'),
+        title: const Text('Family Members'),
         titleSpacing: 0.0,
       ),
       body: ListView.builder(
@@ -80,6 +80,7 @@ class FamilyMembersPage extends StatelessWidget {
           number: FamilyMembersList[index],
           color: const Color(0xff528031),
           itemType: 'family_members',
+          isPhrases: false,
         ),
         itemCount: FamilyMembersList.length,
       ),

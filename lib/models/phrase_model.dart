@@ -1,15 +1,15 @@
 // ignore_for_file: non_constant_identifier_names
 
-class Item {
-  final String? Image;
+class Phrase {
   final String? jpName;
   final String? enName;
   final String? sound;
 
-  const Item({
+  const Phrase({
     required this.sound,
-    this.Image,
     required this.enName,
     required this.jpName,
   });
 }
+
+// not required this file 

@@ -6,16 +6,17 @@ import 'package:flutter/material.dart';
 import '../models/Item_Model.dart';
 
 class ListItem extends StatelessWidget {
-  const ListItem({
-    super.key,
-    required this.number,
-    required this.color,
-    required this.itemType,
-  });
+  const ListItem(
+      {super.key,
+      required this.number,
+      required this.color,
+      required this.itemType,
+      required this.isPhrases});
 
   final Item number;
   final Color color;
   final String itemType;
+  final bool isPhrases;
 
   @override
   Widget build(BuildContext context) {
@@ -24,12 +25,14 @@ class ListItem extends StatelessWidget {
       color: color,
       child: Row(
         children: [
-          Container(
-            color: const Color(0xfffff6dc),
-            child: Image.asset(
-              number.Image!,
-            ),
-          ),
+          isPhrases == true
+              ? Container()
+              : Container(
+                  color: const Color(0xfffff6dc),
+                  child: Image.asset(
+                    number.Image!,
+                  ),
+                ),
           Padding(
             padding: const EdgeInsets.only(left: 16),
             child: Column(
@@ -76,3 +79,11 @@ class ListItem extends StatelessWidget {
     );
   }
 }
+
+
+// Container(
+//             color: const Color(0xfffff6dc),
+//             child: Image.asset(
+//               number.Image!,
+//             ),
+//           ),

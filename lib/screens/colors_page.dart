@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:toku_application/components/number_item.dart';
+import 'package:toku_application/components/ItemList.dart';
 import 'package:toku_application/models/Item_Model.dart';
 
 class ColorsPage extends StatelessWidget {
@@ -61,7 +61,7 @@ class ColorsPage extends StatelessWidget {
             child: const Icon(Icons.arrow_back_ios_new)),
         elevation: 0.0,
         backgroundColor: const Color(0xff473025),
-        title: const Text('Numbers'),
+        title: const Text('Colors'),
         titleSpacing: 0.0,
       ),
       body: ListView.builder(
@@ -70,6 +70,7 @@ class ColorsPage extends StatelessWidget {
           number: ColorsList[index],
           color: const Color(0xff7d3fa2),
           itemType: 'colors',
+          isPhrases: false,
         ),
         itemCount: ColorsList.length,
       ),
