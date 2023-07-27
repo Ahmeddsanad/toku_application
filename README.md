@@ -18,7 +18,7 @@ Phrases Page
 
 
 
-<div style="width: 60%; height: 60%">
+<div style="width: 20%; height: 20%">
   
 ![Screenshot 2023-07-27 114313](https://github.com/Ahmeddsanad/toku_application/assets/100171203/40010ada-7072-4b1f-b11a-9b3a4425b6de)
   
