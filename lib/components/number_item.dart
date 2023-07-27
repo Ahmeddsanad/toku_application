@@ -3,21 +3,25 @@
 // import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
-import '../models/number_model.dart';
+import '../models/Item_Model.dart';
 
-class NumberItem extends StatelessWidget {
-  const NumberItem({
+class ListItem extends StatelessWidget {
+  const ListItem({
     super.key,
     required this.number,
+    required this.color,
+    required this.itemType,
   });
 
-  final Number number;
+  final Item number;
+  final Color color;
+  final String itemType;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 100,
-      color: const Color(0xfff99531),
+      color: color,
       child: Row(
         children: [
           Container(
@@ -30,6 +34,7 @@ class NumberItem extends StatelessWidget {
             padding: const EdgeInsets.only(left: 16),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   number.jpName!,
@@ -52,10 +57,7 @@ class NumberItem extends StatelessWidget {
           IconButton(
             onPressed: () {
               try {
-                // AudioPlayer player = AudioPlayer();
-                // await player.play(AssetSource('assets/sounds/colors/black.wav'));
-
-                // AudioCache player = AudioCache(prefix: 'assets/sounds/numbers/');
+                // AudioCache player = AudioCache(prefix: 'assets/sounds/$itemType/');
                 // player.play('number.sound');
 
                 print('Song playing');

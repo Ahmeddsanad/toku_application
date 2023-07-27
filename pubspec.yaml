@@ -67,6 +67,8 @@ flutter:
     - assets/images/family_members/
     - assets/sounds/colors/
     - assets/sounds/numbers/
+    - assets/sounds/family_members/
+
     # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
