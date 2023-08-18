@@ -1,6 +1,7 @@
 // import 'package:just_audio_cache/just_audio_cache.dart';
 
 // import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
 import '../models/Item_Model.dart';
@@ -60,8 +61,10 @@ class ListItem extends StatelessWidget {
           IconButton(
             onPressed: () {
               try {
-                // AudioCache player = AudioCache(prefix: 'assets/sounds/$itemType/');
-                // player.play('number.sound');
+                final player = AudioPlayer();
+
+                // player.setSourceAsset('assets/sounds/numbers/number_three_sound.mp3');
+                player.play(AssetSource('sounds/$itemType/${number.sound}'));
 
                 print('Song playing');
               } catch (ex) {

@@ -57,7 +57,7 @@ class FamilyMembersPage extends StatelessWidget {
         Image: 'assets/images/family_members/family_younger_sister.png',
         enName: 'younger sister',
         jpName: 'Imōto',
-        sound: 'family_younger_sister.wav'),
+        sound: 'younger_sister.wav'),
   ];
 
   @override

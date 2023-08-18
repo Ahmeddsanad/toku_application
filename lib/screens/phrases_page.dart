@@ -6,9 +6,9 @@ import 'package:toku_application/models/Item_Model.dart';
 import 'package:toku_application/models/phrase_model.dart';
 
 class PhrasesPage extends StatelessWidget {
-  const PhrasesPage({super.key});
+  PhrasesPage({super.key});
 
-  final List<Item> phrases = const [
+  List<Item> phrases = const [
     Item(
       sound: 'dont_forget_to_subscribe.wav',
       jpName: 'Kōdoku suru koto o wasurenaide kudasai',

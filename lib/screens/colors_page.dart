@@ -12,7 +12,7 @@ class ColorsPage extends StatelessWidget {
         Image: 'assets/images/colors/color_black.png',
         enName: 'black',
         jpName: 'Kuro',
-        sound: 'black.wav'),
+        sound: 'black.mp3'),
     Item(
         Image: 'assets/images/colors/color_brown.png',
         enName: 'brown',
@@ -22,7 +22,7 @@ class ColorsPage extends StatelessWidget {
         Image: 'assets/images/colors/color_dusty_yellow.png',
         enName: 'dusty yellow',
         jpName: 'Dasutiierō',
-        sound: 'dusty yellow.wav'),
+        sound: 'dusty_yellow.wav'),
     Item(
         Image: 'assets/images/colors/color_gray.png',
         enName: 'gray',
